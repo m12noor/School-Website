@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>School Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+    span {
+      color: orange;
+    }
+
+    .top-header {
+      padding: 10px;
+    }
+
+    .Notice-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .notice {
+      background-color: orange;
+      color: #fff;
+      text-align: center;
+      padding: 10%;
+
+    }
+
+    .image {
+      width: 75%;
+      height: auto;
+    }
+    .imagess{
+      height: 180px;
+    }
+
+    .imagett{
+      height: 180px;
+    }
+
+
+    .our-facility-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .staff-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .footer {
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 35px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="top-header bg-dark">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h5 style="color:#fff; font-size: 15px;">Welcome to our Website </h5>
+        </div>
+        <div class="col">
+          <h5 style="color:#fff; font-size: 15px;">Call Now +921234567890</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <di9v class="container-fluid">
+          <a class="navbar-brand" href="file.html">
+
+            <img id="images" src="./pics/pic2.jpg" alt="IQRA ROUZATUL ATFAl" style="width: 120px;
+            height: auto;" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="file.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admission.html">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">ContactUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="download.html">Download</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Login
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Login.html">Student Login </a></li>
+                  <li><a class="dropdown-item" href="Login.html">Employee Login</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+    </div>
+    </nav>
+  </div>
+  </div>
+
+  <div class="container">
+  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+   <ol class="breadcrumb">
+     <li class="breadcrumb-item"><a href="#">Home</a></li>
+     <li class="breadcrumb-item active" aria-current="page">Admission</li>
+   </ol>
+ </nav>
+</div>
+
+  <div class="about-us-section">
+   <div class="container">
+     <div class="row">
+      <div class="col-md-12 text-center" style="padding: 10px;">
+        <h1>ADMISSION</h1>
+      </div>
+      <div class="col-md-6 " style="padding-bottom: 10px;">
+       <div class="col-md-12">
+       
+       
+       
+        <form  action="data.php" method="post">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Full Name</label>
+            <input type="text" name="name" class="form-control" >
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Father Name</label>
+            <input type="text" name="fname" class="form-control" >
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mother Name</label>
+            <input type="text" name="mname" class="form-control" >
+          </div>
+         
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">phone No</label>
+            <input type="tel" name="contact" class="form-control" aria-describedby="emailHelp">
+            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Class</label>
+            <input type="text" name="class" class="form-control"  aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Address</label>
+            <input type="text" name="address" class="form-control"  aria-describedby="emailHelp">
+          </div>
+
+        
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+   </div>
+
+   <div class="col-md-6 text-center" >
+    <img src="./pics/pic11.jpg" class="img-fluid" alt="admission">
+  </div>
+  </div>
+ </div>
+
+ 
+
+ <div class="footer bg-dark">
+   <div class="container">
+     <div class="row">
+       <div class="col">
+         <h4 class="text-white">About Us</h4>
+         <p class="text-white">If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a
+           choice of many people.
+           They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate
+           Iqra <a href="#">Read More</a>
+         </p>
+       </div>
+
+       <div class="col">
+         <h4 class="text-white">Menu</h4>
+         <ul>
+           <li><a class="text-white" href="#">Home</a></li>
+           <li><a class="text-white" href="#">About Us</a></li>
+           <li><a class="text-white" href="#">Gallery</a></li>
+           <li><a class="text-white" href="#">Admission</a></li>
+           <li><a class="text-white" href="#">Download </a></li>
+           <li><a class="text-white" href="#">Contact Us</a></li>
+         </ul>
+       </div>
+
+       <div  class="col">
+         <h4 class="text-white">Contact info</h4>
+         <ul style="list-style-type: none;">
+         <li class="text-white">Address: Pakistan</li>
+         <li class="text-white">Phone No: +921234567890</li>
+       </ul>
+       </div>
+       <div class="col-md-12  text-center">
+         <p  style="border-top: 1px solid#fff; color: #fff ;">All Rights Reserved</p>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+ crossorigin="anonymous"></script>
+</body>
+
+</html>

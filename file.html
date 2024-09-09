@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>School Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+    span {
+      color: orange;
+    }
+
+    .top-header {
+      padding: 10px;
+    }
+
+    .Notice-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .notice {
+      background-color: orange;
+      color: #fff;
+      text-align: center;
+      padding: 10%;
+
+    }
+
+    .image {
+      width: 75%;
+      height: auto;
+    }
+    .imagess{
+      height: 180px;
+    }
+
+    .imagett{
+      height: 180px;
+    }
+
+
+    .our-facility-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .staff-section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .footer {
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-top: 35px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="top-header bg-dark">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <h5 style="color:#fff; font-size: 15px;">Welcome to our Website </h5>
+        </div>
+        <div class="col">
+          <h5 style="color:#fff; font-size: 15px;">Call Now +921234567890</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <di9v class="container-fluid">
+          <a class="navbar-brand" href="file.html">
+
+            <img id="images" src="./pics/pic2.jpg" alt="IQRA ROUZATUL ATFAl" style="width: 120px;
+            height: auto;" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="file.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admission.html">Admission</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="ContactUs.html">ContactUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="download.html">Download</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Login
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Login.html">Student Login </a></li>
+                  <li><a class="dropdown-item" href="Login.html">Employee Login</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+    </div>
+    </nav>
+  </div>
+  </div>
+
+  <div class="main-slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./pics/pic7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./pics/pic6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./pics/pic2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="Notice-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <h5 class="card-title notice">Noticeboard</h5>
+            <div class="card-body">
+
+              <marquee direction="up">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <h5 class="card-title notice">Announcement</h5>
+            <div class="card-body">
+
+              <marquee direction="up">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <h5 class="card-title notice">News</h5>
+            <div class="card-body">
+
+              <marquee direction="up">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-us-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1><span>Iqra Rouzatul Atfal Trust</span></h1>
+          <p>"If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a choice of many people.
+            They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate Iqra
+            Rauza tul Atfal from other schools."</p>
+          <h1><span>Working since </span></h1>
+
+          Iqra Raza-tul-Atfal is working since 1985.
+          <h3><span>Branches</span></h3>
+          There are 185 branches of Iqra Rauza tul Atfal Trust in all the provinces of Pakistan.
+          <ol>
+            <li>70 Branches in Punjab</li>
+            <li>20 Branches in Sindh</li>
+            <li>33 Branches in KPK</li>
+            <li>12 Branches in Balochistan</li>
+            <li>06 Branches in Azad Kashmir</li>
+            <li>44 Branches in Gilgit Baltistan</li>
+          </ol>
+          <a href="#" class="btn btn-primary">read more</a>
+        </div>
+        <div class="col">
+
+          <img class="image" src="./pics/pic13.jpeg" alt="Iqra Rouzatul Atfal">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="our-facility-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>OUR FACILITY</h1>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 100%;">
+            <img src="./pics/pic15.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">Technology</h5>
+              <p class="card-text">If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a
+                choice of many people.
+                They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate
+                Iqra
+                Rauza tul Atfal from other schools.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card" style="width: 100%; ">
+            <img class="imagett" src="./pics/pic16.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">TRANSPORTATION</h5>
+              <p class="card-text">If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a
+                choice of many people.
+                They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate
+                Iqra
+                Rauza tul Atfal from other schools.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 100%; ">
+            <img class="imagess" src="./pics/pic17.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">SAFETY & SECURITY</h5>
+              <p class="card-text">If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a
+                choice of many people.
+                They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate
+                Iqra
+                Rauza tul Atfal from other schools.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="staff-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>OUR STAFF</h1>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 100%; ">
+            <img src="./pics/pic11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">STAFF NAME</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 100%; ">
+            <img src="./pics/pic11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">STAFF NAME</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 100%; ">
+            <img src="./pics/pic11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title notice">STAFF NAME</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4 class="text-white">About Us</h4>
+          <p class="text-white">If we talk about best Hifz School in Pakistan, Iqra Rauza tul Atfal Lahore is a
+            choice of many people.
+            They are the pioneer of hifz schooling in Pakistan. There are many great features which differentiate
+            Iqra <a href="#">Read More</a>
+          </p>
+        </div>
+
+        <div class="col">
+          <h4 class="text-white">Menu</h4>
+          <ul>
+            <li><a class="text-white" href="#">Home</a></li>
+            <li><a class="text-white" href="#">About Us</a></li>
+            <li><a class="text-white" href="#">Gallery</a></li>
+            <li><a class="text-white" href="#">Admission</a></li>
+            <li><a class="text-white" href="#">Download </a></li>
+            <li><a class="text-white" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div  class="col">
+          <h4 class="text-white">Contact info</h4>
+          <ul style="list-style-type: none;">
+          <li class="text-white">Address: Pakistan</li>
+          <li class="text-white">Phone No: +921234567890</li>
+        </ul>
+        </div>
+        <div class="col-md-12  text-center">
+          <p  style="border-top: 1px solid#fff; color: #fff ;">All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
